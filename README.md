@@ -12,13 +12,13 @@ To obtain XML data for a particular issue only, append URL with volume and issue
 
 You must remove "xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/   http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" from top row (after "<OAI-PMH ") in your XML document for this stylesheet to work.
 
-A list of constants you need to change before use:
+A list of constants (between line 34-50) you need to change before use:
 
-•         Line 49, 51: depositor name and email_address
+•         depositor name and email_address
 
-•         Line 54: Registrant
+•         Registrant
 
-•         Line 60-62: journal_metadata, full_title, abbrev_title, issn
+•         journal_metadata, full_title, abbrev_title, issn
 
 Here’s a screencast of how to do the transformation in Oxygen http://screencast.com/t/midcn168s
 
