@@ -15,7 +15,9 @@ You must remove "xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/   http
 A list of constants you need to change before use:
 
 •         Line 49, 51: depositor name and email_address
+
 •         Line 54: Registrant
+
 •         Line 60-62: journal_metadata, full_title, abbrev_title, issn
 
 Here’s a screencast of how to do the transformation in Oxygen http://screencast.com/t/midcn168s
