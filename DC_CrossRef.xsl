@@ -3,19 +3,6 @@
 <!--    This stylesheet transforms OAI XML data to CrossRef XML. 
         It can be used to register DOIs with CrossRef in batches.
         
-        Base URL for AJTE
-        http://ro.ecu.edu.au/do/oai/?metadataPrefix=document-export&verb=ListRecords&set=publication:ajte
-        
-        To obtain XML data for a particular issue only, append URL with volume and issue number, e.g.
-        http://ro.ecu.edu.au/do/oai/?metadataPrefix=document-export&verb=ListRecords&set=publication:ajte/vol38/iss7/
-        
-        Save as .xml document.
-        
-        You must remove "xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/   http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" 
-        from top row (after "<OAI-PMH ") in your XML document for this stylesheet to work.
-        
-        Transformer SAXON HE 9.5.0.2
-        
         Created by Janice Chan 01 July 2013, Edith Cowan University
 -->
 <!-- ======================================================== -->
