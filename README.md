@@ -10,6 +10,8 @@ It uses ‘document export’ version of the bepress OAI XML, base URL is http:/
 
 To obtain XML data for a particular issue only, append URL with volume and issue number, e.g. http://[your IR URL]/do/oai/?metadataPrefix=document-export&verb=ListRecords&set=publication:[collection label]/vol38/iss7/
 
+You must remove "xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/   http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" from top row (after "<OAI-PMH ") in your XML document for this stylesheet to work.
+
 A list of constants you need to change before use:
 
 •         Line 49, 51: depositor name and email_address
